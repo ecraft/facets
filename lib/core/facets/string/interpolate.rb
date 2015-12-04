@@ -1,3 +1,9 @@
+unless $FACETS_LOADED
+  UxFactory.deprecated(:require_facets, "Code that requires the 'facets' gem (more specifically, 'facets/string/interpolate')", '2015-12-04') do
+    fail "Do not require the 'facets' gem. Rewrite the code to rely on the 'activesupport' gem instead."
+  end
+end
+
 class String
 
   # Interpolate. Provides a means of extenally using Ruby string
@@ -16,4 +22,3 @@ class String
   end
 
 end
-
