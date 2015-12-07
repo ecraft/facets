@@ -1,8 +1,5 @@
-unless $FACETS_LOADED
-  UxFactory.deprecated(:require_facets, "Code that requires the 'facets' gem (more specifically, \"require 'facets'\")", '2015-12-04') do
-    fail "Do not require the 'facets' gem. Rewrite the code to rely on the 'activesupport' gem instead."
-  end
-  $FACETS_LOADED = true
+UxFactory.deprecated(:require_facets, "Code that requires the 'facets' gem (more specifically, \"require 'facets'\")", '2015-12-04') do
+  fail "Do not require the 'facets' gem. Rewrite the code to rely on the 'activesupport' gem instead."
 end
 
 require 'facets/version.rb'
