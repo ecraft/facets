@@ -1,3 +1,7 @@
+UxFactory.deprecated(:require_facets, "Code that requires the 'facets' gem (more specifically, \"require 'facets'\")", '2015-12-04') do
+  fail "Do not require the 'facets' gem. Rewrite the code to rely on the 'activesupport' gem instead."
+end
+
 require 'facets/version.rb'
 
 require 'facets/array.rb'
@@ -38,4 +42,3 @@ require 'facets/symbol.rb'
 require 'facets/time.rb'
 require 'facets/to_hash.rb'
 require 'facets/unboundmethod.rb'
-

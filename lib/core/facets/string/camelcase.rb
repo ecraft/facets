@@ -1,3 +1,7 @@
+UxFactory.deprecated(:require_facets, "Code that requires the 'facets' gem (more specifically, 'facets/string/camelcase')", '2015-12-04') do
+  fail "Do not require the 'facets' gem. Rewrite the code to rely on the 'activesupport' gem instead."
+end
+
 class String
 
   # Converts a string to camelcase. This method leaves the first character
@@ -70,4 +74,3 @@ class String
   end
 
 end
-
