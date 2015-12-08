@@ -43,7 +43,7 @@ revision: 0
 created: '2004-12-16'
 summary: Premium Ruby Extensions
 title: Facets
-version: 2.9.3
+version: 2.9.3.ecraft.0
 name: facets
 description: Facets is the premier collection of extension methods for the Ruby programming
   language. Facets extensions are unique by virtue of thier atomicity. They are stored
