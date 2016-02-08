@@ -14,6 +14,6 @@ module Facets
   end
 
   #
-  VERSION = '2.9.3.ecraft.0'  # profile['version']
+  VERSION = '2.9.3.ecraft.1'  # profile['version']
 end
 
